@@ -1,77 +1,76 @@
-# CS50-Finance
+# CS50x-Finance
 
 ## Introduction
 This is one of the assignments provided in CS50x - Introduction to Computer Science.
 
 The goal of the exercise is to:
 
-* Implement a website that allow user to "buy" and "sell" stock and the following functions:
-* Complete the implementation of register, to enble the user to register for an account via a form.
-* Complete the implementation of quote, to enable the user to look up a stock’s current price.
-* Complete the implementation of buy, to enable the user to buy stocks.
-* Complete the implementation of index, to display an HTML table summarizing, for current logged in user, which stocks the user owns, the numbers of shares owned, the current price of each stock, and the total value of each holding (i.e., shares times price). Also display the user’s current cash balance along with a grand total (i.e., stocks’ total value plus cash).
-* Complete the implementation of sell, to enable the user to sell shares of a stock (that he or she owns).
-* Complete the implementation of history, to display an HTML table summarizing all of a user’s transactions ever, listing row by row each and every buy and every sell.
+* Implement a website that allows users to "buy" and "sell" stock with the following functions:
+* Complete the implementation of a registration system, enabling users to register for an account.
+* Complete the implementation of a quote feature, allowing users to look up the current price of a stock.
+* Complete the implementation of a buying system, enabling users to buy stocks.
+* Complete the implementation of an index page to display an HTML table summarizing which stocks the logged-in user owns, how many shares, the current price of each stock, and the total value of each holding (i.e., shares times price). Also display the user's current cash balance and a grand total (i.e., the total value of stocks plus cash).
+* Complete the implementation of a selling system to allow users to sell shares of stocks they own.
+* Complete the implementation of a history page that displays an HTML table summarizing all of a user’s transactions, showing each buy and sell action.
 
-Apart from the function required and the built in function provided in this exercise, I  added some of my own functions to the website:
+In addition to the required functions, I added some extra features to the website:
 
-* Allow user to change their password
-* Allow the user to add more cash
+* Allow users to change their password.
+* Allow users to add more cash to their account.
 
-If you want more information click [here](https://cs50.harvard.edu/x/2023/psets/9/finance/)
+For more information, click [here](https://cs50.harvard.edu/x/2023/psets/9/finance/).
 
 ## Built With
-* HTML for website strcuture
-* Flask for backend development
-* Bootstrap for design
-* [IEX API](https://iexcloud.io/) to get the stocks values in real time
-* sqlite3 for storing users information (username and hashed password) and the transaction record (bought or sold)
+* HTML for website structure.
+* Flask for backend development.
+* Bootstrap for design.
+* [IEX API](https://iexcloud.io/) to fetch real-time stock prices.
+* sqlite3 for storing user information (username, hashed passwords) and transaction records (bought or sold stocks).
 
 ## Website
-Every user after registered will have $10000 by default
+After registering, each user will have a default cash balance of $10,000.
 
-* Login Page:
+* **Login Page**:
 ![Login Page](/CS50%20finance%20Screenshot/LogIn.png)
 
-* Register Page:
+* **Register Page**:
 ![Register Page](/CS50%20finance%20Screenshot/Register.png)
 
-* Index Page:
-  This is the homepage of the website which also contains the History table of the user.
+* **Index Page**:
+  This is the homepage of the website, which also contains the history of the user's transactions.
 ![Index Page](/CS50%20finance%20Screenshot/Index.png)
 
-* Quote Page (Input the stock symbol for checking the stock info): 
+* **Quote Page** (Enter the stock symbol to check the stock info): 
 ![Quote Page](/CS50%20finance%20Screenshot/Quote.png)
 
-* Quoted Page (The inputted stock symbol is displayed):
+* **Quoted Page** (Displays the info of the entered stock symbol):
 ![Quoted Page](/CS50%20finance%20Screenshot/Quoted.png)
 
-* Buy page (Input the stock symbol and number of shares to buy):
+* **Buy Page** (Enter the stock symbol and the number of shares to buy):
 ![Buy Page](/CS50%20finance%20Screenshot/Buy.png)
 
-* Bought Page (The bought stock is displayed at the history):
+* **Bought Page** (The bought stock is displayed in the user's history):
 ![Bought Page](/CS50%20finance%20Screenshot/Bought.png)
 
-* Sell Page (Input the stock that you have bought in the drop-down list and input the number of shares to sell): 
+* **Sell Page** (Select the stock you own from the drop-down list and enter the number of shares to sell): 
 ![Sell Page](/CS50%20finance%20Screenshot/Sell.png)
 
-* Sold Page (The sold stock is displayed at the history):
+* **Sold Page** (The sold stock is displayed in the user's history):
 ![Sold Page](/CS50%20finance%20Screenshot/Sold.png)
 
-* History page (Show all your action on the page such as sell, buy): 
+* **History Page** (Shows all user actions, such as buy and sell transactions): 
 ![History Page](/CS50%20finance%20Screenshot/History.png)
 
-* Add Cash Page: 
+* **Add Cash Page**: 
 ![Add Page](/CS50%20finance%20Screenshot/Add.png)
 
-* Added Cash Page:
+* **Added Cash Page**:
 ![Added Page](/CS50%20finance%20Screenshot/Added.png)
 
-* Change Password (Allow user to change their password but cannot input the new password same as current password): 
+* **Change Password** (Allows users to change their password, but the new password cannot be the same as the current one): 
 ![Change Password](/CS50%20finance%20Screenshot/ChangePassword.png)
 
-## Reference
+## References
 * Bootstrap
 * W3School
 * Stack Overflow
-# CX50x-Finance
