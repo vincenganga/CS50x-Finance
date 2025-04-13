@@ -3,4 +3,4 @@ Flask
 Flask-Session
 requests
 sqlite3
-iex-api key
+iex-api
