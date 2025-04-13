@@ -2,9 +2,5 @@ cs50
 Flask
 Flask-Session
 requests
-
-
-Flask web application that enables the user to "buy" and "sell" stocks
-
-Topics
-javascript  css  python  flask html5  sqlite3  iex-api  flask-session bootstrap5
+sqlite3
+iex-api key
